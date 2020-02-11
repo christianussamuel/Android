@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home_Activity"
+    android:orientation="vertical"
+    android:background="@drawable/blur8">
+
+
+    <EditText
+        android:id="@+id/home_activity1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/colorWhite"
+        android:text="@string/home_menu"
+        android:longClickable="false"
+        android:clickable="false"
+        android:inputType="none"
+        android:focusable="false">
+
+    </EditText>
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30sp"
+    card_view:cardBackgroundColor="@color/cardview_shadow_start_color"
+    >
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginEnd="10sp"
+        android:contentDescription="@string/profile_pic"
+        android:src="@drawable/prof2"
+        android:visibility="visible">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/home_text1"
+        style="@style/WhiteText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="234sp"
+        android:layout_marginEnd="20sp"
+        android:padding="10sp"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/country_text1"
+        style="@style/WhiteText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="245sp"
+        android:layout_marginEnd="20sp"
+        android:padding="10sp"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/gender_text1"
+        style="@style/WhiteText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="265sp"
+        android:layout_marginEnd="20sp"
+        android:padding="10sp"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/phone_text1"
+        style="@style/WhiteText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="285sp"
+        android:layout_marginEnd="20sp"
+        android:padding="10sp"
+        android:textSize="20sp">
+
+    </TextView>
+
+</androidx.cardview.widget.CardView>
+
+
+
+
+    <Button
+        android:id="@+id/button_home1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_gravity="center"
+        android:layout_marginTop="60sp"
+        android:layout_marginStart="100sp"
+        android:layout_marginEnd="100sp"
+        android:text="@string/back_button">
+
+    </Button>
+
+
+
+</LinearLayout>

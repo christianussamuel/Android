@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LOGIN MENU</string>
+    <string name="Welcome">!</string>
+    <string name="username_hint">Enter your username</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="country_hint">Enter your country</string>
+    <string name="gender_hint">Enter your gender</string>
+    <string name="phone_hint">Enter your phone number</string>
+    <string name="button">Pencet</string>
+    <string name="back_button">Balik</string>
+    <string name="home_menu">Home</string>
+    <string name="profile_pic">profile-pic</string>
+</resources>
